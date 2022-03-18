@@ -33,7 +33,7 @@ while name != "Xxx" and count != 5:
         # Warns user there is only one seat left
         print(f"\n***** You only have ONE seat left! *****")
     # Get details
-    name = input("Whats your name? ")   
+    name = input("Whats your name? ")
     if name != "Xxx":
         count += 1  # Don't want to include escape code in the count
 
