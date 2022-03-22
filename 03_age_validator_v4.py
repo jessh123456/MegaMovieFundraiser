@@ -8,7 +8,7 @@ def number_checker(question):
     number = ""
     while not number:
         try:
-            number = int(input(text))
+            number = int(input(question))
             return number
         except ValueError:
             print("\nPlease enter an integer (i.e. a whole number with "
